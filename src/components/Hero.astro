@@ -149,7 +149,7 @@ import Button from '@components/ui/Button.astro';
 	.img1:active {
 		transform: scale(2);
 	}
-	@media only screen and (max-width: 780px) {
+	@media only screen and (max-width: 880px) {
 		@keyframes pulsate {
 			0%, 100% {
 				transform: scale(1);
@@ -159,16 +159,16 @@ import Button from '@components/ui/Button.astro';
 			}
 		}
 		.img1{
-			animation: pulsate(2s) infinite;
+			animation: pulsate 2s infinite;
 		}
 		.container {
-			margin-top: 300px;
+			margin-top: 100px;
 		}
 	}
 	@media only screen and (max-width: 620px) {
 		.container {
-			margin-top: 300px;
-			margin-right: 100px;
+			margin-top: 100px;
+			margin-right: 170px;
 		}
 	}
 </style>
