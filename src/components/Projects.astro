@@ -1,10 +1,6 @@
 ---
 import Card from '@components/ui/Card.astro';
-import { getCollection } from 'astro:content';
-
-const projects = await getCollection('projects', ({ data }) => {
-	return !data.inProgress;
-});
+import projects from '../data/projectsData'
 ---
 
 <section
@@ -23,6 +19,7 @@ const projects = await getCollection('projects', ({ data }) => {
 					description={project.data.description}
 					alt={project.data.img_alt}
 					tags={project.data.tags}
+					proImg={project.data.img}
 				/>
 			))
 		}
