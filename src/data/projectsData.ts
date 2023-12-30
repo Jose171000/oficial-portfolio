@@ -24,7 +24,7 @@ const projetcs = [
       data: {
         inProgress: false,
         title: 'AllTech.com',
-        description: 'Este proyecto de un e-commerce fue hecho con el CMS de wordpress y el plugin de WooCommerce y elementor',
+        description: 'This e-commerce project was made with the wordpress CMS and the WooCommerce plugin and elementor',
         tags: ['Wordpress', 'WooCommerce', 'Elementor'],
         link: 'https://alltech.pe/',
         img:"https://res.cloudinary.com/dce6wpls5/image/upload/v1703013202/2023-12-19_zkduw2.png",
@@ -39,7 +39,7 @@ const projetcs = [
       data: {
         inProgress: false,
         title: 'WarmiVentures',
-        description: 'Colaboré en la actualización del diseño con tailwindCSS, también modifiqué interfaces de usuario con Astro',
+        description: 'I collaborated in updating the design with tailwindCSS, I also modified user interfaces with Astro',
         tags: ['Vue.js', 'Astro', 'TypeScript', 'TailwindCSS'],
         link: 'https://github.com/Jose171000/warmi-landing',
         img:"https://res.cloudinary.com/dce6wpls5/image/upload/v1703023773/2023-12-19_2_x1hn05.png",
@@ -54,7 +54,7 @@ const projetcs = [
       data: {
         inProgress: false,
         title: 'Rick & Morty SPA',
-        description: 'En esta SPA hice un desarrollo desde el back-end creando una API con node.js hasta el front-end con React',
+        description: 'In this SPA I did a development from the back-end creating an API with node.js to the front-end with React',
         tags: ['React.js', 'HTML5', 'CSS3', 'node.js'],
         link: 'https://github.com/Jose171000/RICK_AND_MORTY',
         img:"https://res.cloudinary.com/dce6wpls5/image/upload/v1703024595/2023-12-19_3_n9xor6.png",
